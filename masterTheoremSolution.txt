@@ -2,7 +2,7 @@ PART 1 Θ
 a) T(n) = 3T(n/2) +n
 Ans:
 a = 3, b = 2, d = 1
-Since 3> 2^1, case 3 applies, T(n) = Θ(nlog a{base 2}) = Θ(nlog 3 {base 2})
+Since 3> 2^1, case 3 applies, T(n) = Θ(n^log a{base 2}) = Θ(n^log 3 {base 2})
  
 b) T(n) = 64T(n/8) - n^2(log n)
 Ans: 
