@@ -72,7 +72,6 @@ public static void getUserInputs(int noOfCompanies, Scanner sc, int choice) {
 				for(int i =0; i< currentStockPriceArr.length; i++) {
 					System.out.print(currentStockPriceArr[i]);
 				}
-				System.out.println(searchElement+"===searchElement");
 				if (searchElement == -1) {
 					System.out.println("Value not found");
 				}else{
