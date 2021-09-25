@@ -71,9 +71,6 @@ public static void getUserInputs(int noOfCompanies, Scanner sc, int choice) {
 				System.out.println("enter the key value");
 				double key = sc.nextDouble();
 				int searchElement = Searching.binarySearchImplementation(currentStockPriceArr, 0, currentStockPriceArr.length-1, key);
-				for(int i =0; i< currentStockPriceArr.length; i++) {
-					System.out.print(currentStockPriceArr[i]);
-				}
 				if (searchElement == -1) {
 					System.out.println("Value not found");
 				}else{
