@@ -38,7 +38,8 @@ public static void getUserInputs(int noOfCompanies, Scanner sc, int choice) {
 			case 1:
 				//1. Display the companies stock prices in ascending order
 				// Used the Merge sort for both order and status is kept as true
-				sort.sort(currentStockPriceArr, 0, currentStockPriceArr.length-1, true);
+	       			sort.sort(currentStockPriceArr, 0, currentStockPriceArr.length-1, true);
+                                System.out.println("Stock prices in ascending order are: ");
 				for(int i = 0; i < currentStockPriceArr.length; i++) {
 					System.out.print(currentStockPriceArr[i]+ " ");
 				}
@@ -48,6 +49,7 @@ public static void getUserInputs(int noOfCompanies, Scanner sc, int choice) {
 				//2. Display the companies stock prices in descending order
 				// Used the Merge sort for both order and status is kept as false
 				sort.sort(currentStockPriceArr, 0, currentStockPriceArr.length-1, false);
+                                System.out.println("Stock prices in descending order are: ");
 				for(int i = 0; i < currentStockPriceArr.length; i++) {
 					System.out.print(currentStockPriceArr[i]+ " ");
 				}
